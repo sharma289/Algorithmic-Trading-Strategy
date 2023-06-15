@@ -6,3 +6,7 @@ This repository contains a Python code for fetching US stock data using the Alph
   - pandas
   - matplotlib
   - mplfinance
+
+## Usage
+1. Install the required libraries using the following command:
+pip install pandas matplotlib mplfinance
