@@ -29,16 +29,16 @@ pip install pandas matplotlib mplfinance
 ```
 self.api_key = '<YOUR_API_KEY>'
 ```
-2. Use the get_script_data() method of the Strategy class to fetch intraday data for a specific stock and compute the indicator data:
+3. Use the get_script_data() method of the Strategy class to fetch intraday data for a specific stock and compute the indicator data:
 ```
 strategy = Strategy('AAPL')
 strategy.get_script_data()
 ```
-3. Use the get_signals() method to generate trading signals based on the computed indicators:
+4. Use the get_signals() method to generate trading signals based on the computed indicators:
 ```
 strategy.get_signals()
 ```
-4. Plot a candlestick chart for the fetched data using the plot_candlestick_chart() method:
+5. Plot a candlestick chart for the fetched data using the plot_candlestick_chart() method:
 ```
 strategy.plot_candlestick_chart()
 ```
