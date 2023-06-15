@@ -25,6 +25,10 @@ This repository contains a Python code for fetching US stock data using the Alph
 ```
 pip install pandas matplotlib mplfinance
 ```
+2. Set the API key in the ScriptData class which can be obtain from Alpha Vantage by signing up on their website:
+```
+self.api_key = '<YOUR_API_KEY>'
+```
 2. Use the get_script_data() method of the Strategy class to fetch intraday data for a specific stock and compute the indicator data:
 ```
 strategy = Strategy('AAPL')
