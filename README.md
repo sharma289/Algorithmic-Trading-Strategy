@@ -14,6 +14,12 @@ This repository contains a Python code for fetching US stock data using the Alph
 - __getitem__(key): Retrieves the data for a specific stock script.
 - __contains__(key): Checks if the data for a specific stock script is available.
 
+### Strategy
+- get_script_data(): Fetches intraday data for the specified stock and computes the indicator data.
+- compute_indicator_data(timeperiod): Converts the intraday data into a pandas DataFrame and calculates the indicator data.
+- get_signals(): Generates trading signals based on the computed indicators.
+- plot_candlestick_chart(): Plots a candlestick chart for the fetched intraday data.
+
 ## Usage
 1. Install the required libraries using the following command:
 ```
